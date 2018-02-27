@@ -1,4 +1,4 @@
-package com.Application;
+package com.application;
 
 import com.file.IReader;
 import org.slf4j.Logger;

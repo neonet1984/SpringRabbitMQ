@@ -1,6 +1,6 @@
 package com.config;
 
-import com.Application.ApplicationImpl;
+import com.application.ApplicationImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.*;
