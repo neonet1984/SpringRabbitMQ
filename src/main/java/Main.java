@@ -1,0 +1,12 @@
+import com.application.Application;
+import com.config.AppConfiguration;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Main {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfiguration.class);
+        Application application =(Application) context.getBean("applicationImpl");
+        application.startup();
+    }
+}
